@@ -6,4 +6,4 @@ Library            RequestsLibrary
 Testando Api
     
     ${RESPONSE}    GET         https://pokeapi.co/api/v2/pokemon/ditto                
-    Should Contain             ${RESPONSE}                    abilities
+    Should Contain             ${RESPONSE.json()}                    abilities
