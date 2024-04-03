@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.10.12 on linux)" generated="2024-04-03T04:06:20.396992" rpa="false" schemaversion="5">
+<suite id="s1" name="Testing" source="/home/matheus/Desktop/testing-pipe/testing.robot">
+<test id="s1-t1" name="Testando Pipelines" line="6">
+<kw name="New Browser" owner="Browser">
+<msg time="2024-04-03T04:06:20.845276" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/home/matheus/Desktop/testing-pipe/browser/traces/10cfd80f-0a50-4139-b600-41bfd7b9adc3"}</msg>
+<msg time="2024-04-03T04:06:20.969530" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/home/matheus/Desktop/testing-pipe/browser/traces/10cfd80f-0a50-4139-b600-41bfd7b9adc3"}</msg>
+<arg>chromium</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2024-04-03T04:06:20.844526" elapsed="0.125165"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2024-04-03T04:06:21.432667" level="INFO">Successfully initialized new page object and opened url: https://www.bymatheusguimaraes.com</msg>
+<msg time="2024-04-03T04:06:21.432752" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>https://www.bymatheusguimaraes.com</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2024-04-03T04:06:20.969979" elapsed="0.462900"/>
+</kw>
+<status status="PASS" start="2024-04-03T04:06:20.841662" elapsed="0.591471"/>
+</test>
+<status status="PASS" start="2024-04-03T04:06:20.397580" elapsed="1.064917"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Testing">Testing</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
